@@ -1,0 +1,52 @@
+/*///////////////////navbar///////////////////*/
+
+.navbar{  background-image: linear-gradient(#fc00ff,blue,#00aeff);}
+/*/////////////////end////////////////////////*/
+
+*{font-family:'Quicksand', sans-serif;;}
+/*///////////////////////////////*/
+
+
+/*/////////////////////////////////////*/
+
+.hello{margin-top:70px;}
+
+/*//////////////h1////////////////*/
+#h{padding-top:90px;
+	padding-bottom: 0;
+text-align: center;
+color: #f33e6e;}
+/*///////////////end h1//////////////*/
+
+/*//////////*/
+
+/*//////////*/
+
+
+
+
+/*/////animation//////*/
+#change_content:after{
+	
+	 font:32px;
+  background: -webkit-linear-gradient(#da00b4,blue,#00aeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 7px;
+	content: '  ';
+	animation: changetext 5s infinite linear;
+}
+@keyframes changetext{
+	0%{content: "Sketch";}
+	35%{content: "Digital Art";}
+	70%{content: "Painting";}
+	100%{content: "Art Accessories";}
+}	
+/*//////animation end//////*/
+
+/*img zoom in*/
+
+
+/*selling*/
+
+/*seeling*/
